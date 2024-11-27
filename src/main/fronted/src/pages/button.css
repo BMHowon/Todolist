@@ -1,0 +1,97 @@
+/* 기존 스타일 */
+html, body {
+    background: #FBC02D;
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#holder {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    background: white;
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-65%);
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.button,
+.button2 { /* 공통 스타일 적용 */
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(255, 255, 255, 0.7); /* 입체감 추가 */
+    background: linear-gradient(145deg, #f5f5f5, #e0e0e0); /* 부드러운 그라디언트 효과 */
+}
+
+.button {
+    background: slategray; /* Red color */
+}
+
+.button2 {
+    background: #607d8b; /* Gray color */
+}
+
+/* 버튼에 호버 시 입체감 강조 */
+.button:hover,
+.button2:hover {
+    background: linear-gradient(145deg, #c5c5c5, #b0b0b0); /* 호버 시 배경 색상 변화 */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3), -4px -4px 12px rgba(255, 255, 255, 0.5); /* 더 강한 입체감 */
+}
+
+/* 버튼 클릭 시 눌리는 효과 */
+.button:active,
+.button2:active {
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.4), inset -4px -4px 8px rgba(255, 255, 255, 0.5); /* 내부로 눌린 효과 */
+    background: linear-gradient(145deg, #b5b5b5, #a0a0a0); /* 클릭 시 배경 색상 변화 */
+}
+
+/* .btnTwo 스타일 */
+.btnTwo {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    padding-top: 2px;
+    background: red;
+    left: -250px;
+    transition: 0.3s;
+}
+
+/* .btnText 스타일 */
+.btnText {
+    color: black;
+    transition: 0.3s;
+}
+
+/* .btnText2 스타일 */
+.btnText2 {
+    margin-right: -130px;
+    color: #FFF;
+}
+
+.button:hover .btnTwo,
+.button2:hover .btnTwo { /* button2에 hover 효과 추가 */
+    left: -130px;
+}
+
+.button:hover .btnText,
+.button2:hover .btnText { /* button2에 텍스트 이동 효과 추가 */
+    margin-left: 65px;
+}
+
+.button:active,
+.button2:active { /* button2에 클릭 효과 추가 */
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.3);
+}
