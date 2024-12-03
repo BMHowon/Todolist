@@ -1,7 +1,5 @@
 <h1 align="center"> Simple Design Todolist!! </h1>
 
-<br>
-
 
 # 📖 Table of contents
 * [Demo](#-demo)
