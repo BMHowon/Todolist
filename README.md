@@ -1,48 +1,20 @@
-<h4 align="center"> Simple Design TodoList!! </h1>
-<h1 align="center">🎧 MVStudio 🎧</h1>
+<h1 align="center"> Simple Design TodoList!! </h1>
 
 <br>
 
 </div>
-<br><br>
+<br>
 
 
 # 📖 Table of contents
-* [Introduction](#-introduction)
 * [Demo](#-demo)
 * [API](#-api)
-* [System Architecture](#-system-architecture)
-* [ERD](#-erd)
 * [Tech Stack](#-tech-stack)
-* [Monitoring](#-monitoring)
-* [How to start](#-how-to-start)
-* [Directory Structure](#-directory-structure)
-* [Team Members](#-team-members)
-
-<br>
-
-# 📣 Introduction
-### URL
-> 🖥️ [MVStudio](https://mvstudio.pro) (배포 중단)
-
-### Medium
-> 🔎 [MVStudio Medium](https://medium.com/@jinoo0306/ai%EA%B0%80-%EB%A7%8C%EB%93%A4%EC%96%B4-%EC%A3%BC%EB%8A%94-%EB%AE%A4%EC%A7%81-%EB%B9%84%EB%94%94%EC%98%A4-%EC%84%9C%EB%B9%84%EC%8A%A4-mvstudio-fc098ae02a08) &nbsp;
-
-<br>
-
-- **사용자가 선택한 다양한 옵션에 따라 맞춤형 뮤직비디오를 생성**
-- **AI 기술을 활용하여 높은 퀄리티의 뮤직비디오를 신속하게 제작**
-- **장르, 악기, 주제, 분위기를 자유롭게 지정 가능**
-- **사용자 채널 관리 및 차트 기반 분석 제공**
-- **완성된 뮤직비디오를 소셜 미디어에 쉽게 공유**
-- **제작한 뮤직비디오를 개인 프로젝트에 활용 가능**
-
-<br>
 
 # 🕺🏻 Demo
-### Onboarding Page
-> MVStudio의 간략한 설명을 담고 있습니다.
-<img align="center" width="1000" alt="Onboarding" src="https://github.com/2024-Techeer-Summer-Bootcamp-Team-D/.github/blob/main/images/%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB-%E1%84%80%E1%85%B5%E1%84%85%E1%85%A9%E1%86%A8-2024-08-03-%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB-2%20(2).gif">
+### Login Page
+> You can login in this page!
+<img align="center" width="1000" alt="Onboarding" src="https://i.ibb.co/QHK0mPW/todolistpage.jpg">
 
 
 
